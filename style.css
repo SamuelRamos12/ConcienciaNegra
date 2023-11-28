@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: Impact, 'Haettenschweiler', sans-serif;
+    color: black;
+    font-size: 20px;
+    background-color: #1A120B;
+}
+
+.painel{
+    display: flex;
+    justify-content: center;
+}
+.painel>img{
+    width: 1500px;
+    height: 500px;
+    flex-shrink: 0;
+    padding: 4rem;
+}
+
+.cabecalho{
+    padding: 1px;
+    background-color: #D5CEA3;
+    justify-content: center;
+    display: flex;
+}
+
+h1{
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #D5CEA3;
+}
+
+
+.painel-esquerdo{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+article1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+article1>img{
+    outline: 4px solid #D5CEA3;
+}
+
+article2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #D5CEA3;
+    padding: 2rem;
+
+}
+
+article3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+article3>img{
+    outline: 4px solid #D5CEA3;
+    
+}
+
+
+.kanye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kanye>img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 4px solid #D5CEA3;
+}
+
+.kanye>p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #D5CEA3;
+    font-size: 30px;
+}
+
+footer{
+    max-height: 100px;
+    overflow-y: hidden;
+}
